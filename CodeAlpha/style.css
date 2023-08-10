@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Home-p{
+    height: 40rem;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+/* navbar designing */
+
+nav{
+    height: 5rem;
+    width: 100%;
+    /* border: 2px sen; */
+    display: flex;
+    text-align: center;
+    position: relative;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border-radius: 2rem;
+    /* border-top: 1rem; */
+}
+.logo1{
+    height: 5rem;
+    width: 6rem;
+}
+span{
+    color: white;
+    font-size: 2.3rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    padding: 0.3rem 2rem;
+    font-size: 1.3rem;
+}
+ul li:hover{
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Home page designing */
+
+div{
+    margin-top: 2rem;
+}
+
+.home-content{
+    height: 32rem;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 1rem; */
+    margin: 0rem 1.4rem;
+}
+.left-p{
+    height: 27rem;
+    width: 45%;
+    /* border: 1px solid green; */
+}
+.right-p{
+    height: 27rem;
+    width: 45%;
+    /* border: 1px solid green; */
+}
+h1{
+    font-size: 3rem;
+}
+.btn-section{
+    display: flex;
+    justify-content:space-around;
+    width: 60%;
+
+}
+button{
+    height: 3rem;
+    width: 7.0rem;
+    border: 2px solid rgb(3, 90, 3);
+    justify-content: center;
+    text-align: center;
+    font-size: 1.0rem;
+    color: black;
+    background-color: green;
+    font: bold;
+    border-radius: 1.0rem;
+
+}
